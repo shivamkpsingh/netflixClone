@@ -4,15 +4,11 @@
   box-sizing: border-box;
   background-color: #d2dbdd;
 }
-.heading_style {
-  text-align: center;
-  font-size: 40px;
-  margin-top: 10px;
-}
 .myCard {
   display: flex;
   padding: 20px;
-  justify-content: center;
+  justify-content:space-around;
+  flex-wrap: wrap;
 }
 .card {
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
